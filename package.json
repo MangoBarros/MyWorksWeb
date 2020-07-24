@@ -4,16 +4,19 @@
   "description": "my curriculum website",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "app-module-path": "^2.2.0",
+    "knex": "^0.21.2",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
-    "koa-ejs": "^4.3.0",
     "koa-json": "^2.0.2",
-    "koa-router": "^9.1.0"
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^9.1.0",
+    "pg": "^8.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
